@@ -16,13 +16,13 @@ FIN
 
 let num1 = parseInt(prompt('Ingrese El primer Numero: '));
 let num2 = parseInt(prompt('Ingrese El segundo Numero: '));
-
 if (num1 == num2) {
     console.log(`${num1} y ${num2} SON IGUALES`);
 } else if (num1 > num2) {
     console.log(`${num1} es Mayor que ${num2}`);
-} else if (num2 < num1) {
-    console.log(`${num1} es Mayor que ${num2}`);
-} else if(typeof(num1) != Number && typeof(num2) != Number )
-console.log(`NO SON NUMEROS`);
+} else if (num2 > num1) {
+    console.log(`${num2} es Mayor que ${num1}`);
+} else {
+    console.log('ALGUN DATO INGRESADO NO SON NUMEROS')
+};
     
